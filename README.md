@@ -27,5 +27,5 @@ This is a basic web-based calculator application built using HTML, CSS, and Java
 - **Google Fonts**: Styling the text with the 'Poppins' font.
 
 ## Preview
-
+![calculator](https://github.com/MANOJKUMAR0404/Calculator/assets/159749880/a907c71d-469e-44c3-bef5-754ff6be52b3)
 
