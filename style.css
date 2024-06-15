@@ -1,0 +1,76 @@
+/* overall style */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #ecf0f3;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+}
+
+h1{
+    margin-top: 10px;
+    font-weight: 800;
+}
+/* making div to the center of the page */
+.container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+    
+}
+
+/* styling the calculator layout */
+.calculator{
+    background-color: #ecf0f3;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                      5px 5px 12px rgba(0,0,0,.16);
+    display: grid;
+    grid-template-columns: repeat(4,75px);
+    border: none;
+}
+
+/* styling the input box */
+input{
+    background-color: #ecf0f3;
+    grid-column: span 4;
+    height: 70px;
+    width: 300px;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                       5px 5px 12px rgba(0,0,0,.16);
+    font-size: 40px;
+    text-align: end;
+    border-radius: 30px;
+    border: none;
+    color: rgb(70, 70, 70);
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+
+/* applying styles to buttons */
+
+button{
+    margin: 5px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                       5px 5px 12px rgba(0,0,0,.16);
+    border: none;
+    font-size: 25px;
+}
+
+
+.cal{
+    width: 150px;
+    border-radius: 30px;
+}
